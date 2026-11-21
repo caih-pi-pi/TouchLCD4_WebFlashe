@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "esbuild": "0.25.12",
+    "esptool-js": "0.7.1",
+    "spark-md5": "3.0.2"
+  },
+  "name": "touchlcd4-web-flasher",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:web": "node build.mjs --web-only",
+    "dev": "node serve.mjs"
+  }
+}
